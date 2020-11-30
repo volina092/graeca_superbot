@@ -1,7 +1,9 @@
 ﻿import telebot as tb
 from telebot import types
 
-bot = tb.TeleBot('СЕКРЕТ') #имя бота: @graeca_superbot
+TOKEN = ''
+
+bot = tb.TeleBot(TOKEN) #имя бота: @graeca_superbot
 
 ERR = 'δεν καταλαβαίνω =( ρώτα Μαρία, τι να κάνετε\n\n' + 'не понимаю =( спросите у Маши, что делать или просто скажите \"привет\"' 
 
